@@ -40,22 +40,6 @@ function insertionSort(arr) {
    return arr;
 }
 
-// function insertionSort(arr) {
-//     console.log("insertionSort is running ")
-//     for (let i = 0; i < arr.length; i++) {
-//       let currentValue = arr[i];
-  
-//       for (var j = i - 1; j > -1 && arr[j] > currentValue; j--) {
-//         arr[j + 1] = arr[j];
-//       }
-  
-//       arr[j + 1] = currentValue;
-//     }
-  
-//     return arr;
-//   }
-
-
 
 
 // let iS1 = insertionSort([4, 20, 12, 10, 7, 9]); // [4, 7, 9, 10, 12, 20]
